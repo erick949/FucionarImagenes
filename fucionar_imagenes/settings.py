@@ -41,14 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
 CORS_ALLOWED_ORIGINS = [
-    "https://fucionarimagenes.onrender.com/api/stitch"
+    "https://fucionarimagenes.onrender.com",
     "https://fucionar.vercel.app",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
-
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
