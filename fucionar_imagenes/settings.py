@@ -43,7 +43,8 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://vercel.app",
+    "https://fucionarimagenes.onrender.com/api/stitch"
+    "https://fucionar.vercel.app",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
